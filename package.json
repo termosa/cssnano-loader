@@ -1,0 +1,19 @@
+{
+  "name": "cssnano-loader",
+  "version": "0.0.0",
+  "description": "Webpack loader that minifies CSS by [cssnano](https://github.com/ben-eb/cssnano)",
+  "main": "loader.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/termosa/cssnano-loader.git"
+  },
+  "keywords": [
+    "css",
+    "loader",
+    "webpack",
+    "minification",
+    "minify"
+  ],
+  "author": "Stanislav Termosa <termosa.stanislav@gmail.com>",
+  "license": "ISC"
+}
