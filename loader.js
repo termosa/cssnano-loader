@@ -20,7 +20,6 @@ var cssnanoLoader = function(source, map) {
   cssnano.process(source, options).then(function (result) {
     var parsed = parseCssnano(result.css);
     var map = assign({}, parsed.map, { file: resourcePath });
-    console.log(map);
     callback(null, parsed.css, map);
   }, callback);
 };
