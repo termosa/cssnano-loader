@@ -1,4 +1,4 @@
-function cssnanoLoader = function(source, map) {
+var cssnanoLoader = function(source, map) {
   this.cacheable();
   this.callback(null, source, map);
 };
